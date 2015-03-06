@@ -1,0 +1,61 @@
+def	B	Bluebird	Bxyz = x(yz)
+def	C	Cardinal	Cxyz = xzy
+def	D	Dove	Dxyzw = xy(zw)
+def	E	Eagle	Exyzwv = xy(zwv)
+def	F	Finch	Fxyz = zyx
+def	G	Goldfinch	Gxyzw = xw(yz)
+def	H	Hummingbird	Hxyz = xyzy
+def	I	Identity bird	Ix = x
+def	J	Jay	Jxyzw = xy(xwz)
+def	K	Kestrel	Kxy = x
+def	L	Lark	Lxy = x(yy)
+def	M	Mockingbird	Mx = xx
+def	O	Owl	Oxy = y(xy)
+def	Q	Queer bird	Qxyz = y(xz)
+def	Q1	Quixotic bird	Q1xyz = x(zy)
+def	Q3	Quirky bird	Q3xyz = z(xy)
+def	R	Robin	Rxyz = yzx
+def	s	Sage bird	θx = x(θx)
+def	S	Starling	Sxyz = xz(yz)
+def	T	Thrush	Txy = yx
+def	U	Turing bird	Uxy = y(xxy)
+def	V	Vireo	Vxyz = zxy
+def	W	Warbler	Wxy = xyy
+def	W1	Converse warbler	W1xy = yxx
+def	C*	Cardinal once removed	C*xyzw = xywz
+def	C**	Cardinal twice removed	C**xyzwv = xyzvw
+def	W*	Warbler once removed	W*xyz = xyzz
+def	W**	Warble twice removed	W**xyzw = xyzww
+der	D	Dove	BB
+der	E	Eagle	B(BBB)
+der	R	Robin	BBT
+der	C	Cardinal	RRR, also B(T(BBT))(BBT)
+der	F	Finch	ETTET, also B(TT)(B(BBB)T)
+der	V	Vireo	BCT, also CF
+der	Q	Queer bird	CB
+der	Q1	Quixotic bird	BCB
+der	Q3	Quirky bird	BT
+der	G	Goldfish	BBC
+der	DM	Double Mockingbird	BM
+der	L	Lark	QM
+der	W	Warbler	C(BMR)
+der	W1	Converse warbler	BMR, also CW
+der	H	Hummmingbird	BW(BC)
+der	S	Starling	B(BW)(BBC), also BW*G
+der	O	Owl	QQW, also BWQ and SI
+der	U	Turing bird	LO, also L(SI)
+der	C*	Cardinal once removed	BC
+der	C**	Cardinal twice removed	BC*
+der	W*	Warbler once removed	BW
+der	W**	Warble twice removed	BW*
+der	s	Sage bird	BML
+der	s	Sage bird	Q(QM)M
+der	s	Sage bird	SLL
+der	s	Sage bird	UU
+der	s	Sage bird	LO(LO)
+der	s	Sage bird	W(QL(QL))
+der	s	Sage bird	W(M(QL))
+der	s	Sage bird	WS(BWB)
+der	s	Sage bird	BM(BWM)
+der	s	Sage bird	BM(RMB)
+der	s	Sage bird	BM(CBM)
